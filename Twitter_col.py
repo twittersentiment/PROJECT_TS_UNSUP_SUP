@@ -19,7 +19,7 @@ asecret=""
 
 MAX_TWEETS = 1000
 track_list = ['','']
-PATH = "C:/Users/KRISHNA/Desktop/TWEET/trump_20160424.dat"
+PATH = ""
 
 class listener(StreamListener):
 
