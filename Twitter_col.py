@@ -1,7 +1,7 @@
 
 #Author : Krishna Vemuri
 #Data   : April 4th 2016
-#Download tweets.
+#Download tweets from .
 
 import json
 import codecs
@@ -17,8 +17,8 @@ csecret=""
 atoken=""
 asecret=""
 
-MAX_TWEETS = 1800
-track_list = ['trump']
+MAX_TWEETS = 1000
+track_list = ['','']
 PATH = "C:/Users/KRISHNA/Desktop/TWEET/trump_20160424.dat"
 
 class listener(StreamListener):
@@ -26,7 +26,7 @@ class listener(StreamListener):
     def __init__(self, api=None, path=None):
         self.api = api
         self.path = path
-        self.counter = 1500
+        self.counter = 0
         self.output  = codecs.open(path,'w','utf-8')
         #self.cur_date = dt.strptime("20160419","%Y%m%d");
         
