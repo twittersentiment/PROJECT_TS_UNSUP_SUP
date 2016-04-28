@@ -12,10 +12,10 @@ from dateutil import parser
 from datetime import datetime as dt
 
 #consumer key, consumer secret, access token, access secret.
-ckey="mJj0H8gz3d1YAGU5Nhl1xFZUO"
-csecret="NLf6J7gXlV3OfrT3s1odxCkVqaasVgMQMC3Du7d7IjhRZpiyQp"
-atoken="122109804-q6l4YZFSA1D4mWUYLLNdSf7Hiz3pq9W4mvk5EcWp"
-asecret="S7BRIHpF4NMxPbam0V3oUxOpSVNdzTdTOjsXf4SZQgIGE"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 
 MAX_TWEETS = 1800
 track_list = ['trump']
