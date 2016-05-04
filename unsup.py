@@ -1,5 +1,6 @@
 #Author : Krishna Vemuri
 #Date : May 4th 
+#Uses web search API which is deprecated
 import re
 import time
 import nltk.tag.stanford as SPT
