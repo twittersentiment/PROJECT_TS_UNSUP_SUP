@@ -110,7 +110,7 @@ def useragent():
 #Reads the tweet file and places into Pandas Dataframe
 def readFile():
     try:
-        df = pd.read_csv(r'C:/Users/KRISHNA/Desktop/tweet.dat',sep='|',names = ["MesgID", "CreatedAt", "Sentiment", "tweet"])
+        df = pd.read_csv(r'../tweet.dat',sep='|',names = ["MesgID", "CreatedAt", "Sentiment", "tweet"])
         return df
     except Exception as ex:
         print(ex)
